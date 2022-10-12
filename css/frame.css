@@ -211,7 +211,7 @@ hr {
   font-weight: 300;
   line-height: 1.5;
   overflow-x: auto;
-  background-color: #005cbf;
+  /* background-color: #005cbf; */
   display: flex;
 }
 
@@ -895,12 +895,13 @@ ol.nested>li:before {
 .custom-survey .custom-radio-group-survey div {
   display: flex;
   position: relative;
-  width: 100%;
+  width: 50%;
+  height: 50%;
   break-inside: avoid;
 }
 
 .custom-survey .custom-radio-group-survey label>img {
-  width: calc(100% - 5px);
+  width: calc(50% - 5px);
   margin-top: 5px;
   margin-bottom: 10px;
   border-radius: 51%;
