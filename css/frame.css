@@ -344,6 +344,23 @@ hr {
   display: flex;
 }
 
+.image {
+  border-radius: 2px;
+  height: auto;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
 .image.center {
   align-self: center;
 }
@@ -378,10 +395,12 @@ hr {
 
 .max-width-400 {
   max-width: 400px;
+  max-height: 300px;
 }
 
 .max-width-140 {
   max-width: 140px;
+  max-height: 200px;
 }
 
 ol.publication {
